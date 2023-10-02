@@ -3,3 +3,4 @@
 .itwaisi
 .temp
 *.sqlite
+.env

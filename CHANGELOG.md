@@ -13,3 +13,11 @@
 - update `.gitignore`
 - remove `pegasus_installer` folder and contents
 - remove `main.py`
+
+## 2023-10-02
+
+- add `env_usr.bat`
+- add `env_sys.bat`
+- add `nssm.exe`
+- add `pegasus_service.bat`
+- add `setup.bat`
