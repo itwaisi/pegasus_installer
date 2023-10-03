@@ -21,3 +21,5 @@
 - add `nssm.exe`
 - add `pegasus_service.bat`
 - add `setup.bat`
+- restructure `*.bat` file content
+- update `README.md`
