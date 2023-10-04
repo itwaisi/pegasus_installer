@@ -23,3 +23,7 @@
 - add `setup.bat`
 - restructure `*.bat` file content
 - update `README.md`
+
+## 2023-10-03
+
+- add `check_versions.bat`
