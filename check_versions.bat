@@ -35,7 +35,7 @@ IF DEFINED PEGASUS_VER_GIT ECHO [DEBUG] :: %PEGASUS_VER_GIT%
 ECHO.
 ECHO ##################################################
 ECHO [DEBUG] :: Python Version
-WHERE python >NUL 2>&1
+WHERE python1 >NUL 2>&1
 IF %ERRORLEVEL% NEQ 0 (
     ECHO [DEBUG] :: View README to install Python https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe.
     START "" "https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe"

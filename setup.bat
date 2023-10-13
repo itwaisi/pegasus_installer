@@ -43,7 +43,11 @@ IF [%PEGASUS_DBG_DOWNLOAD%] NEQ [] (
     @REM DOWNLOAD PEGASUS FROM GITHUB
     ECHO [%PEGASUS_LABEL_PROGRAM%] :: Downloading Pegasus
     CD %PEGASUS_LOCATION%
-    git clone https://%PEGASUS_GITHUB_PAT%@github.com/itwaisi/pegasus.git .
+
+    @REM USE FEATURE BRANCH WHILE IN DEVELOPMENT
+    @REM git clone https://%PEGASUS_GITHUB_PAT%@github.com/itwaisi/pegasus.git .
+    git clone -b dev2.0.0 https://%PEGASUS_GITHUB_PAT%@github.com/itwaisi/pegasus.git .
+    
 ) ELSE (
     ECHO [%PEGASUS_LABEL_PROGRAM%] :: DEBUG :: Skip Downloading Package From Github
 )
